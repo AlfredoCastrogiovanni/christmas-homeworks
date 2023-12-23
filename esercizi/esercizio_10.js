@@ -18,4 +18,4 @@ function second(a, x) {
         return first(a / 2, x);
     }
 }
-console.log('Esercizio 10:', second(6, 1) === _);
+console.log('Esercizio 10:', second(6, 1) === 1.5);
