@@ -7,4 +7,8 @@
  */
 
 let counter = 0;
-_;
+let interval = setInterval(() => {
+    counter++
+    console.log(counter);
+    counter >= 10 ? clearInterval(interval) : '';
+}, 500);
