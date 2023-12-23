@@ -4,5 +4,5 @@
  * il numero 0
  */
 
-const numeri = [_, _, _];
+const numeri = [1, 0, 2];
 console.log('Esercizio 2:', numeri[1]);
